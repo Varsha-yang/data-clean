@@ -1,0 +1,415 @@
+2019-05-20 14:22:01.668 [main] INFO  com.kdc.dataclean.Application 50 - Starting Application on KEDA-995K4R2 with PID 9664 (E:\idea_workspace\data-clean\target\classes started by Administrator in E:\idea_workspace\data-clean)
+2019-05-20 14:22:01.670 [main] INFO  com.kdc.dataclean.Application 679 - The following profiles are active: dev
+2019-05-20 14:22:02.453 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer 90 - Tomcat initialized with port(s): 8080 (http)
+2019-05-20 14:22:02.462 [main] INFO  org.apache.coyote.http11.Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8080"]
+2019-05-20 14:22:02.469 [main] INFO  org.apache.catalina.core.StandardService 173 - Starting service [Tomcat]
+2019-05-20 14:22:02.470 [main] INFO  org.apache.catalina.core.StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-05-20 14:22:02.546 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] 173 - Initializing Spring embedded WebApplicationContext
+2019-05-20 14:22:02.546 [main] INFO  org.springframework.web.context.ContextLoader 296 - Root WebApplicationContext: initialization completed in 829 ms
+2019-05-20 14:22:02.738 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor 171 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-20 14:22:02.820 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler 171 - Initializing ExecutorService 'taskScheduler'
+2019-05-20 14:22:02.849 [main] INFO  org.apache.coyote.http11.Http11NioProtocol 173 - Starting ProtocolHandler ["http-nio-8080"]
+2019-05-20 14:22:02.862 [scheduling-1] INFO  com.alibaba.druid.pool.DruidDataSource 655 - {dataSource-1} inited
+2019-05-20 14:22:02.865 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer 204 - Tomcat started on port(s): 8080 (http) with context path ''
+2019-05-20 14:22:02.868 [main] INFO  com.kdc.dataclean.Application 59 - Started Application in 1.588 seconds (JVM running for 2.486)
+2019-05-20 14:22:03.546 [scheduling-1] INFO  com.kdc.dataclean.job.service.WorkService4 140 - 共有数据7301条
+2019-05-20 14:22:04.135 [scheduling-1] INFO  com.kdc.dataclean.job.service.WorkService4 146 - 7301条数据插入目标表成功
+2019-05-20 14:22:04.136 [scheduling-1] INFO  com.kdc.dataclean.job.service.WorkService4 151 - 0条数据更新目标表成功
+2019-05-20 14:22:04.344 [scheduling-1] INFO  com.kdc.dataclean.job.service.WorkService4 155 - 7301条数据插入状态表成功
+2019-05-20 14:22:04.345 [scheduling-1] INFO  com.kdc.dataclean.job.service.WorkService4 156 - 0条数据身份证为空没有处理
+2019-05-20 14:22:04.345 [scheduling-1] INFO  com.kdc.dataclean.job.service.WorkService4 157 - 0条数据check出来了error
+2019-05-20 14:33:37.565 [main] INFO  com.kdc.dataclean.Application 50 - Starting Application on KEDA-995K4R2 with PID 5276 (E:\idea_workspace\data-clean\target\classes started by Administrator in E:\idea_workspace\data-clean)
+2019-05-20 14:33:37.567 [main] INFO  com.kdc.dataclean.Application 679 - The following profiles are active: dev
+2019-05-20 14:33:38.345 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer 90 - Tomcat initialized with port(s): 8080 (http)
+2019-05-20 14:33:38.354 [main] INFO  org.apache.coyote.http11.Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8080"]
+2019-05-20 14:33:38.360 [main] INFO  org.apache.catalina.core.StandardService 173 - Starting service [Tomcat]
+2019-05-20 14:33:38.360 [main] INFO  org.apache.catalina.core.StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-05-20 14:33:38.437 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] 173 - Initializing Spring embedded WebApplicationContext
+2019-05-20 14:33:38.437 [main] INFO  org.springframework.web.context.ContextLoader 296 - Root WebApplicationContext: initialization completed in 843 ms
+2019-05-20 14:33:38.628 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor 171 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-20 14:33:38.709 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler 171 - Initializing ExecutorService 'taskScheduler'
+2019-05-20 14:33:38.737 [main] INFO  org.apache.coyote.http11.Http11NioProtocol 173 - Starting ProtocolHandler ["http-nio-8080"]
+2019-05-20 14:33:38.751 [scheduling-1] INFO  com.alibaba.druid.pool.DruidDataSource 655 - {dataSource-1} inited
+2019-05-20 14:33:38.755 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer 204 - Tomcat started on port(s): 8080 (http) with context path ''
+2019-05-20 14:33:38.758 [main] INFO  com.kdc.dataclean.Application 59 - Started Application in 1.512 seconds (JVM running for 1.95)
+2019-05-20 14:33:38.973 [scheduling-1] INFO  com.kdc.dataclean.job.service.WorkService5 163 - 共有数据964条
+2019-05-20 14:33:38.996 [scheduling-1] INFO  com.kdc.dataclean.job.service.WorkService5 169 - 86条数据插入目标表成功
+2019-05-20 14:33:38.996 [scheduling-1] INFO  com.kdc.dataclean.job.service.WorkService5 174 - 0条数据更新目标表成功
+2019-05-20 14:33:39.036 [scheduling-1] INFO  com.kdc.dataclean.job.service.WorkService5 178 - 964条数据插入状态表成功
+2019-05-20 14:33:39.036 [scheduling-1] INFO  com.kdc.dataclean.job.service.WorkService5 179 - 414条数据身份证为空没有处理
+2019-05-20 14:33:39.036 [scheduling-1] INFO  com.kdc.dataclean.job.service.WorkService5 180 - 464条数据check出来了error
+2019-05-20 15:12:18.317 [background-preinit] DEBUG o.h.v.m.ResourceBundleMessageInterpolator 89 - Loaded expression factory via original TCCL
+2019-05-20 15:12:18.384 [main] INFO  com.kdc.dataclean.Application 50 - Starting Application on KEDA-995K4R2 with PID 5888 (E:\idea_workspace\data-clean\target\classes started by Administrator in E:\idea_workspace\data-clean)
+2019-05-20 15:12:18.385 [main] INFO  com.kdc.dataclean.Application 679 - The following profiles are active: dev
+2019-05-20 15:12:19.194 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer 90 - Tomcat initialized with port(s): 8080 (http)
+2019-05-20 15:12:19.203 [main] INFO  org.apache.coyote.http11.Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8080"]
+2019-05-20 15:12:19.209 [main] INFO  org.apache.catalina.core.StandardService 173 - Starting service [Tomcat]
+2019-05-20 15:12:19.210 [main] INFO  org.apache.catalina.core.StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-05-20 15:12:19.291 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] 173 - Initializing Spring embedded WebApplicationContext
+2019-05-20 15:12:19.292 [main] INFO  org.springframework.web.context.ContextLoader 296 - Root WebApplicationContext: initialization completed in 877 ms
+2019-05-20 15:12:19.502 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor 171 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-20 15:12:19.584 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler 171 - Initializing ExecutorService 'taskScheduler'
+2019-05-20 15:12:19.613 [main] INFO  org.apache.coyote.http11.Http11NioProtocol 173 - Starting ProtocolHandler ["http-nio-8080"]
+2019-05-20 15:12:19.627 [scheduling-1] INFO  com.alibaba.druid.pool.DruidDataSource 655 - {dataSource-1} inited
+2019-05-20 15:12:19.630 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer 204 - Tomcat started on port(s): 8080 (http) with context path ''
+2019-05-20 15:12:19.633 [main] INFO  com.kdc.dataclean.Application 59 - Started Application in 1.541 seconds (JVM running for 1.989)
+2019-05-20 15:12:19.840 [scheduling-1] ERROR o.s.s.support.TaskUtils$LoggingErrorHandler 96 - Unexpected error occurred in scheduled task.
+java.lang.NullPointerException: null
+	at com.kdc.dataclean.job.Unit.DataConvertMap.disableLvl(DataConvertMap.java:224)
+	at com.kdc.dataclean.job.service.WorkService5.lambda$cleanData$0(WorkService5.java:79)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at com.kdc.dataclean.job.service.WorkService5.cleanData(WorkService5.java:60)
+	at com.kdc.dataclean.job.WorkJob.execute5(WorkJob.java:58)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-05-20 15:12:46.857 [main] INFO  com.kdc.dataclean.Application 50 - Starting Application on KEDA-995K4R2 with PID 4912 (E:\idea_workspace\data-clean\target\classes started by Administrator in E:\idea_workspace\data-clean)
+2019-05-20 15:12:46.859 [main] INFO  com.kdc.dataclean.Application 679 - The following profiles are active: dev
+2019-05-20 15:12:47.628 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer 90 - Tomcat initialized with port(s): 8080 (http)
+2019-05-20 15:12:47.638 [main] INFO  org.apache.coyote.http11.Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8080"]
+2019-05-20 15:12:47.644 [main] INFO  org.apache.catalina.core.StandardService 173 - Starting service [Tomcat]
+2019-05-20 15:12:47.644 [main] INFO  org.apache.catalina.core.StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-05-20 15:12:47.718 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] 173 - Initializing Spring embedded WebApplicationContext
+2019-05-20 15:12:47.719 [main] INFO  org.springframework.web.context.ContextLoader 296 - Root WebApplicationContext: initialization completed in 824 ms
+2019-05-20 15:12:47.915 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor 171 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-20 15:12:47.999 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler 171 - Initializing ExecutorService 'taskScheduler'
+2019-05-20 15:12:48.028 [main] INFO  org.apache.coyote.http11.Http11NioProtocol 173 - Starting ProtocolHandler ["http-nio-8080"]
+2019-05-20 15:12:48.041 [scheduling-1] INFO  com.alibaba.druid.pool.DruidDataSource 655 - {dataSource-1} inited
+2019-05-20 15:12:48.045 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer 204 - Tomcat started on port(s): 8080 (http) with context path ''
+2019-05-20 15:12:48.047 [main] INFO  com.kdc.dataclean.Application 59 - Started Application in 1.529 seconds (JVM running for 2.187)
+2019-05-20 15:12:48.235 [scheduling-1] INFO  com.kdc.dataclean.job.service.WorkService5 149 - 共有数据500条
+2019-05-20 15:12:48.235 [scheduling-1] INFO  com.kdc.dataclean.job.service.WorkService5 155 - 0条数据插入目标表成功
+2019-05-20 15:12:48.445 [scheduling-1] INFO  com.kdc.dataclean.job.service.WorkService5 160 - 86条数据更新目标表成功
+2019-05-20 15:12:48.477 [scheduling-1] INFO  com.kdc.dataclean.job.service.WorkService5 164 - 500条数据插入状态表成功
+2019-05-20 15:12:48.477 [scheduling-1] INFO  com.kdc.dataclean.job.service.WorkService5 165 - 414条数据身份证为空没有处理
+2019-05-20 15:12:48.477 [scheduling-1] INFO  com.kdc.dataclean.job.service.WorkService5 166 - 0条数据check出来了error
+2019-05-20 15:19:45.210 [main] INFO  com.kdc.dataclean.Application 50 - Starting Application on KEDA-995K4R2 with PID 3136 (E:\idea_workspace\data-clean\target\classes started by Administrator in E:\idea_workspace\data-clean)
+2019-05-20 15:19:45.212 [main] INFO  com.kdc.dataclean.Application 679 - The following profiles are active: dev
+2019-05-20 15:19:45.998 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer 90 - Tomcat initialized with port(s): 8080 (http)
+2019-05-20 15:19:46.006 [main] INFO  org.apache.coyote.http11.Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8080"]
+2019-05-20 15:19:46.012 [main] INFO  org.apache.catalina.core.StandardService 173 - Starting service [Tomcat]
+2019-05-20 15:19:46.013 [main] INFO  org.apache.catalina.core.StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-05-20 15:19:46.087 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] 173 - Initializing Spring embedded WebApplicationContext
+2019-05-20 15:19:46.087 [main] INFO  org.springframework.web.context.ContextLoader 296 - Root WebApplicationContext: initialization completed in 849 ms
+2019-05-20 15:19:46.276 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor 171 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-20 15:19:46.361 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler 171 - Initializing ExecutorService 'taskScheduler'
+2019-05-20 15:19:46.388 [main] INFO  org.apache.coyote.http11.Http11NioProtocol 173 - Starting ProtocolHandler ["http-nio-8080"]
+2019-05-20 15:19:46.402 [scheduling-1] INFO  com.alibaba.druid.pool.DruidDataSource 655 - {dataSource-1} inited
+2019-05-20 15:19:46.406 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer 204 - Tomcat started on port(s): 8080 (http) with context path ''
+2019-05-20 15:19:46.408 [main] INFO  com.kdc.dataclean.Application 59 - Started Application in 1.529 seconds (JVM running for 2.002)
+2019-05-20 15:19:46.611 [scheduling-1] INFO  com.kdc.dataclean.job.service.WorkService5 149 - 共有数据964条
+2019-05-20 15:19:46.662 [scheduling-1] INFO  com.kdc.dataclean.job.service.WorkService5 155 - 549条数据插入目标表成功
+2019-05-20 15:19:46.662 [scheduling-1] INFO  com.kdc.dataclean.job.service.WorkService5 160 - 0条数据更新目标表成功
+2019-05-20 15:19:46.692 [scheduling-1] INFO  com.kdc.dataclean.job.service.WorkService5 164 - 964条数据插入状态表成功
+2019-05-20 15:19:46.693 [scheduling-1] INFO  com.kdc.dataclean.job.service.WorkService5 165 - 414条数据身份证为空没有处理
+2019-05-20 15:19:46.693 [scheduling-1] INFO  com.kdc.dataclean.job.service.WorkService5 166 - 1条数据check出来了error
+2019-05-20 15:56:48.814 [background-preinit] DEBUG o.h.v.m.ResourceBundleMessageInterpolator 89 - Loaded expression factory via original TCCL
+2019-05-20 15:56:48.887 [main] INFO  com.kdc.dataclean.Application 50 - Starting Application on KEDA-995K4R2 with PID 6928 (E:\idea_workspace\data-clean\target\classes started by Administrator in E:\idea_workspace\data-clean)
+2019-05-20 15:56:48.887 [main] INFO  com.kdc.dataclean.Application 679 - The following profiles are active: dev
+2019-05-20 15:56:49.668 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer 90 - Tomcat initialized with port(s): 8080 (http)
+2019-05-20 15:56:49.678 [main] INFO  org.apache.coyote.http11.Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8080"]
+2019-05-20 15:56:49.684 [main] INFO  org.apache.catalina.core.StandardService 173 - Starting service [Tomcat]
+2019-05-20 15:56:49.685 [main] INFO  org.apache.catalina.core.StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-05-20 15:56:49.764 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] 173 - Initializing Spring embedded WebApplicationContext
+2019-05-20 15:56:49.764 [main] INFO  org.springframework.web.context.ContextLoader 296 - Root WebApplicationContext: initialization completed in 849 ms
+2019-05-20 15:56:49.956 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor 171 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-20 15:56:50.045 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler 171 - Initializing ExecutorService 'taskScheduler'
+2019-05-20 15:56:50.072 [main] INFO  org.apache.coyote.http11.Http11NioProtocol 173 - Starting ProtocolHandler ["http-nio-8080"]
+2019-05-20 15:56:50.086 [scheduling-1] INFO  com.alibaba.druid.pool.DruidDataSource 655 - {dataSource-1} inited
+2019-05-20 15:56:50.090 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer 204 - Tomcat started on port(s): 8080 (http) with context path ''
+2019-05-20 15:56:50.092 [main] INFO  com.kdc.dataclean.Application 59 - Started Application in 1.532 seconds (JVM running for 1.993)
+2019-05-20 15:56:50.471 [scheduling-1] INFO  com.kdc.dataclean.job.service.WorkService5 173 - 插入基本人口表95条
+2019-05-20 15:56:50.471 [scheduling-1] INFO  com.kdc.dataclean.job.service.WorkService5 174 - 共有数据964条
+2019-05-20 15:56:50.608 [scheduling-1] ERROR o.s.s.support.TaskUtils$LoggingErrorHandler 96 - Unexpected error occurred in scheduled task.
+org.springframework.dao.DataIntegrityViolationException: PreparedStatementCallback; SQL [INSERT INTO new_grid_disabled_person(iden_crd_num,nam,disabled_catg_cd,disabled_dt,disabled_rsn,disabled_lvl_cd,disabled_cert_num,created_time,created_by,updated_by,updated_time,version) values (?,?,?,?,?,?,?,?,?,?,?,?)]; Data truncation: Incorrect date value: '' for column 'disabled_dt' at row 1; nested exception is java.sql.BatchUpdateException: Data truncation: Incorrect date value: '' for column 'disabled_dt' at row 1
+	at org.springframework.jdbc.support.SQLStateSQLExceptionTranslator.doTranslate(SQLStateSQLExceptionTranslator.java:104)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:72)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:81)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:81)
+	at org.springframework.jdbc.core.JdbcTemplate.translateException(JdbcTemplate.java:1442)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:632)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:646)
+	at org.springframework.jdbc.core.JdbcTemplate.batchUpdate(JdbcTemplate.java:935)
+	at com.kdc.dataclean.job.Unit.DataCleanUnit.insert(DataCleanUnit.java:33)
+	at com.kdc.dataclean.job.service.WorkService5.cleanData(WorkService5.java:178)
+	at com.kdc.dataclean.job.WorkJob.execute5(WorkJob.java:58)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.sql.BatchUpdateException: Data truncation: Incorrect date value: '' for column 'disabled_dt' at row 1
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.cj.util.Util.handleNewInstance(Util.java:191)
+	at com.mysql.cj.util.Util.getInstance(Util.java:166)
+	at com.mysql.cj.util.Util.getInstance(Util.java:173)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createBatchUpdateException(SQLError.java:224)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeBatchedInserts(ClientPreparedStatement.java:772)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeBatchInternal(ClientPreparedStatement.java:443)
+	at com.mysql.cj.jdbc.StatementImpl.executeBatch(StatementImpl.java:814)
+	at com.alibaba.druid.pool.DruidPooledPreparedStatement.executeBatch(DruidPooledPreparedStatement.java:559)
+	at org.springframework.jdbc.core.JdbcTemplate.lambda$batchUpdate$2(JdbcTemplate.java:949)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:616)
+	... 18 common frames omitted
+Caused by: com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Incorrect date value: '' for column 'disabled_dt' at row 1
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:104)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:970)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1109)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1057)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1377)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeBatchedInserts(ClientPreparedStatement.java:733)
+	... 23 common frames omitted
+2019-05-20 16:00:39.564 [main] INFO  com.kdc.dataclean.Application 50 - Starting Application on KEDA-995K4R2 with PID 3576 (E:\idea_workspace\data-clean\target\classes started by Administrator in E:\idea_workspace\data-clean)
+2019-05-20 16:00:39.566 [main] INFO  com.kdc.dataclean.Application 679 - The following profiles are active: dev
+2019-05-20 16:00:40.351 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer 90 - Tomcat initialized with port(s): 8080 (http)
+2019-05-20 16:00:40.360 [main] INFO  org.apache.coyote.http11.Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8080"]
+2019-05-20 16:00:40.366 [main] INFO  org.apache.catalina.core.StandardService 173 - Starting service [Tomcat]
+2019-05-20 16:00:40.366 [main] INFO  org.apache.catalina.core.StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-05-20 16:00:40.441 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] 173 - Initializing Spring embedded WebApplicationContext
+2019-05-20 16:00:40.441 [main] INFO  org.springframework.web.context.ContextLoader 296 - Root WebApplicationContext: initialization completed in 838 ms
+2019-05-20 16:00:40.628 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor 171 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-20 16:00:40.708 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler 171 - Initializing ExecutorService 'taskScheduler'
+2019-05-20 16:00:40.735 [main] INFO  org.apache.coyote.http11.Http11NioProtocol 173 - Starting ProtocolHandler ["http-nio-8080"]
+2019-05-20 16:00:40.748 [scheduling-1] INFO  com.alibaba.druid.pool.DruidDataSource 655 - {dataSource-1} inited
+2019-05-20 16:00:40.752 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer 204 - Tomcat started on port(s): 8080 (http) with context path ''
+2019-05-20 16:00:40.754 [main] INFO  com.kdc.dataclean.Application 59 - Started Application in 1.519 seconds (JVM running for 2.056)
+2019-05-20 16:01:02.759 [Druid-ConnectionPool-Create-456785282] ERROR com.alibaba.druid.pool.DruidDataSource 1846 - create connection error
+com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:835)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:455)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:240)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:199)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1375)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1431)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1844)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeProtocol.readMessage(NativeProtocol.java:562)
+	at com.mysql.cj.protocol.a.NativeProtocol.checkErrorMessage(NativeProtocol.java:732)
+	at com.mysql.cj.protocol.a.NativeProtocol.sendCommand(NativeProtocol.java:671)
+	at com.mysql.cj.protocol.a.NativeProtocol.sendCommand(NativeProtocol.java:132)
+	at com.mysql.cj.NativeSession.sendCommand(NativeSession.java:321)
+	at com.mysql.cj.NativeSession.loadServerVariables(NativeSession.java:832)
+	at com.mysql.cj.jdbc.ConnectionImpl.initializePropsFromServer(ConnectionImpl.java:1307)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:966)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:825)
+	... 6 common frames omitted
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at com.mysql.cj.protocol.ReadAheadInputStream.fill(ReadAheadInputStream.java:107)
+	at com.mysql.cj.protocol.ReadAheadInputStream.readFromUnderlyingStreamIfNecessary(ReadAheadInputStream.java:150)
+	at com.mysql.cj.protocol.ReadAheadInputStream.read(ReadAheadInputStream.java:180)
+	at java.io.FilterInputStream.read(FilterInputStream.java:133)
+	at com.mysql.cj.protocol.FullReadInputStream.readFully(FullReadInputStream.java:64)
+	at com.mysql.cj.protocol.a.SimplePacketReader.readHeader(SimplePacketReader.java:63)
+	at com.mysql.cj.protocol.a.SimplePacketReader.readHeader(SimplePacketReader.java:45)
+	at com.mysql.cj.protocol.a.TimeTrackingPacketReader.readHeader(TimeTrackingPacketReader.java:52)
+	at com.mysql.cj.protocol.a.TimeTrackingPacketReader.readHeader(TimeTrackingPacketReader.java:41)
+	at com.mysql.cj.protocol.a.MultiPacketReader.readHeader(MultiPacketReader.java:54)
+	at com.mysql.cj.protocol.a.MultiPacketReader.readHeader(MultiPacketReader.java:44)
+	at com.mysql.cj.protocol.a.NativeProtocol.readMessage(NativeProtocol.java:556)
+	... 14 common frames omitted
+2019-05-20 16:01:03.110 [scheduling-1] INFO  com.kdc.dataclean.job.service.WorkService5 174 - 共有数据964条
+2019-05-20 16:01:08.639 [scheduling-1] ERROR o.s.s.support.TaskUtils$LoggingErrorHandler 96 - Unexpected error occurred in scheduled task.
+org.springframework.dao.DataIntegrityViolationException: PreparedStatementCallback; SQL [INSERT INTO new_grid_disabled_person(iden_crd_num,nam,disabled_catg_cd,disabled_dt,disabled_rsn,disabled_lvl_cd,disabled_cert_num,created_time,created_by,updated_by,updated_time,version) values (?,?,?,?,?,?,?,?,?,?,?,?)]; Data truncation: Incorrect date value: '' for column 'disabled_dt' at row 1; nested exception is java.sql.BatchUpdateException: Data truncation: Incorrect date value: '' for column 'disabled_dt' at row 1
+	at org.springframework.jdbc.support.SQLStateSQLExceptionTranslator.doTranslate(SQLStateSQLExceptionTranslator.java:104)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:72)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:81)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:81)
+	at org.springframework.jdbc.core.JdbcTemplate.translateException(JdbcTemplate.java:1442)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:632)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:646)
+	at org.springframework.jdbc.core.JdbcTemplate.batchUpdate(JdbcTemplate.java:935)
+	at com.kdc.dataclean.job.Unit.DataCleanUnit.insert(DataCleanUnit.java:33)
+	at com.kdc.dataclean.job.service.WorkService5.cleanData(WorkService5.java:178)
+	at com.kdc.dataclean.job.WorkJob.execute5(WorkJob.java:58)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.sql.BatchUpdateException: Data truncation: Incorrect date value: '' for column 'disabled_dt' at row 1
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.cj.util.Util.handleNewInstance(Util.java:191)
+	at com.mysql.cj.util.Util.getInstance(Util.java:166)
+	at com.mysql.cj.util.Util.getInstance(Util.java:173)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createBatchUpdateException(SQLError.java:224)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeBatchedInserts(ClientPreparedStatement.java:772)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeBatchInternal(ClientPreparedStatement.java:443)
+	at com.mysql.cj.jdbc.StatementImpl.executeBatch(StatementImpl.java:814)
+	at com.alibaba.druid.pool.DruidPooledPreparedStatement.executeBatch(DruidPooledPreparedStatement.java:559)
+	at org.springframework.jdbc.core.JdbcTemplate.lambda$batchUpdate$2(JdbcTemplate.java:949)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:616)
+	... 18 common frames omitted
+Caused by: com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Incorrect date value: '' for column 'disabled_dt' at row 1
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:104)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:970)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1109)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1057)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1377)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeBatchedInserts(ClientPreparedStatement.java:733)
+	... 23 common frames omitted
+2019-05-20 16:06:13.017 [main] INFO  com.kdc.dataclean.Application 50 - Starting Application on KEDA-995K4R2 with PID 9792 (E:\idea_workspace\data-clean\target\classes started by Administrator in E:\idea_workspace\data-clean)
+2019-05-20 16:06:13.020 [main] INFO  com.kdc.dataclean.Application 679 - The following profiles are active: dev
+2019-05-20 16:06:13.835 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer 90 - Tomcat initialized with port(s): 8080 (http)
+2019-05-20 16:06:13.845 [main] INFO  org.apache.coyote.http11.Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8080"]
+2019-05-20 16:06:13.851 [main] INFO  org.apache.catalina.core.StandardService 173 - Starting service [Tomcat]
+2019-05-20 16:06:13.851 [main] INFO  org.apache.catalina.core.StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-05-20 16:06:13.925 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] 173 - Initializing Spring embedded WebApplicationContext
+2019-05-20 16:06:13.926 [main] INFO  org.springframework.web.context.ContextLoader 296 - Root WebApplicationContext: initialization completed in 862 ms
+2019-05-20 16:06:14.113 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor 171 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-20 16:06:14.193 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler 171 - Initializing ExecutorService 'taskScheduler'
+2019-05-20 16:06:14.220 [main] INFO  org.apache.coyote.http11.Http11NioProtocol 173 - Starting ProtocolHandler ["http-nio-8080"]
+2019-05-20 16:06:14.233 [scheduling-1] INFO  com.alibaba.druid.pool.DruidDataSource 655 - {dataSource-1} inited
+2019-05-20 16:06:14.237 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer 204 - Tomcat started on port(s): 8080 (http) with context path ''
+2019-05-20 16:06:14.240 [main] INFO  com.kdc.dataclean.Application 59 - Started Application in 1.545 seconds (JVM running for 2.068)
+2019-05-20 16:06:14.960 [scheduling-1] ERROR o.s.s.support.TaskUtils$LoggingErrorHandler 96 - Unexpected error occurred in scheduled task.
+java.lang.NullPointerException: null
+	at com.kdc.dataclean.job.service.WorkService5.lambda$cleanData$0(WorkService5.java:81)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at com.kdc.dataclean.job.service.WorkService5.cleanData(WorkService5.java:64)
+	at com.kdc.dataclean.job.WorkJob.execute5(WorkJob.java:58)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-05-20 16:06:53.937 [main] INFO  com.kdc.dataclean.Application 50 - Starting Application on KEDA-995K4R2 with PID 4416 (E:\idea_workspace\data-clean\target\classes started by Administrator in E:\idea_workspace\data-clean)
+2019-05-20 16:06:53.939 [main] INFO  com.kdc.dataclean.Application 679 - The following profiles are active: dev
+2019-05-20 16:06:54.724 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer 90 - Tomcat initialized with port(s): 8080 (http)
+2019-05-20 16:06:54.733 [main] INFO  org.apache.coyote.http11.Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8080"]
+2019-05-20 16:06:54.739 [main] INFO  org.apache.catalina.core.StandardService 173 - Starting service [Tomcat]
+2019-05-20 16:06:54.739 [main] INFO  org.apache.catalina.core.StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-05-20 16:06:54.813 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] 173 - Initializing Spring embedded WebApplicationContext
+2019-05-20 16:06:54.813 [main] INFO  org.springframework.web.context.ContextLoader 296 - Root WebApplicationContext: initialization completed in 828 ms
+2019-05-20 16:06:55.004 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor 171 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-20 16:06:55.085 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler 171 - Initializing ExecutorService 'taskScheduler'
+2019-05-20 16:06:55.112 [main] INFO  org.apache.coyote.http11.Http11NioProtocol 173 - Starting ProtocolHandler ["http-nio-8080"]
+2019-05-20 16:06:55.125 [scheduling-1] INFO  com.alibaba.druid.pool.DruidDataSource 655 - {dataSource-1} inited
+2019-05-20 16:06:55.129 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer 204 - Tomcat started on port(s): 8080 (http) with context path ''
+2019-05-20 16:06:55.132 [main] INFO  com.kdc.dataclean.Application 59 - Started Application in 1.511 seconds (JVM running for 2.036)
+2019-05-20 16:06:55.495 [scheduling-1] INFO  com.kdc.dataclean.job.service.WorkService5 175 - 共有数据964条
+2019-05-20 16:06:55.546 [scheduling-1] INFO  com.kdc.dataclean.job.service.WorkService5 181 - 549条数据插入目标表成功
+2019-05-20 16:06:55.546 [scheduling-1] INFO  com.kdc.dataclean.job.service.WorkService5 186 - 0条数据更新目标表成功
+2019-05-20 16:06:55.577 [scheduling-1] INFO  com.kdc.dataclean.job.service.WorkService5 190 - 964条数据插入状态表成功
+2019-05-20 16:06:55.577 [scheduling-1] INFO  com.kdc.dataclean.job.service.WorkService5 191 - 414条数据身份证为空没有处理
+2019-05-20 16:06:55.577 [scheduling-1] INFO  com.kdc.dataclean.job.service.WorkService5 192 - 1条数据check出来了error
+2019-05-20 16:06:55.585 [scheduling-1] INFO  com.kdc.dataclean.job.service.WorkService5 199 - 插入基本人口表95条
+2019-05-20 16:22:01.999 [main] INFO  com.kdc.dataclean.Application 50 - Starting Application on KEDA-995K4R2 with PID 3028 (E:\idea_workspace\data-clean\target\classes started by Administrator in E:\idea_workspace\data-clean)
+2019-05-20 16:22:02.011 [main] INFO  com.kdc.dataclean.Application 679 - The following profiles are active: dev
+2019-05-20 16:22:02.834 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer 90 - Tomcat initialized with port(s): 8080 (http)
+2019-05-20 16:22:02.843 [main] INFO  org.apache.coyote.http11.Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8080"]
+2019-05-20 16:22:02.849 [main] INFO  org.apache.catalina.core.StandardService 173 - Starting service [Tomcat]
+2019-05-20 16:22:02.849 [main] INFO  org.apache.catalina.core.StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-05-20 16:22:02.925 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] 173 - Initializing Spring embedded WebApplicationContext
+2019-05-20 16:22:02.926 [main] INFO  org.springframework.web.context.ContextLoader 296 - Root WebApplicationContext: initialization completed in 884 ms
+2019-05-20 16:22:03.112 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor 171 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-20 16:22:03.193 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler 171 - Initializing ExecutorService 'taskScheduler'
+2019-05-20 16:22:03.221 [main] INFO  org.apache.coyote.http11.Http11NioProtocol 173 - Starting ProtocolHandler ["http-nio-8080"]
+2019-05-20 16:22:03.234 [scheduling-1] INFO  com.alibaba.druid.pool.DruidDataSource 655 - {dataSource-1} inited
+2019-05-20 16:22:03.238 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer 204 - Tomcat started on port(s): 8080 (http) with context path ''
+2019-05-20 16:22:03.240 [main] INFO  com.kdc.dataclean.Application 59 - Started Application in 1.539 seconds (JVM running for 1.962)
+2019-05-20 16:22:03.809 [scheduling-1] INFO  com.kdc.dataclean.job.service.WorkService6 166 - 共有数据818条
+2019-05-20 16:22:03.886 [scheduling-1] INFO  com.kdc.dataclean.job.service.WorkService6 172 - 795条数据插入目标表成功
+2019-05-20 16:22:04.048 [scheduling-1] INFO  com.kdc.dataclean.job.service.WorkService6 177 - 23条数据更新目标表成功
+2019-05-20 16:22:04.083 [scheduling-1] INFO  com.kdc.dataclean.job.service.WorkService6 181 - 818条数据插入状态表成功
+2019-05-20 16:22:04.083 [scheduling-1] INFO  com.kdc.dataclean.job.service.WorkService6 182 - 0条数据身份证为空没有处理
+2019-05-20 16:22:04.084 [scheduling-1] INFO  com.kdc.dataclean.job.service.WorkService6 183 - 0条数据check出来了error
+2019-05-20 16:22:04.116 [scheduling-1] INFO  com.kdc.dataclean.job.service.WorkService6 189 - 插入基本人口表298条
+2019-05-20 16:30:04.360 [main] INFO  com.kdc.dataclean.Application 50 - Starting Application on KEDA-995K4R2 with PID 10280 (E:\idea_workspace\data-clean\target\classes started by Administrator in E:\idea_workspace\data-clean)
+2019-05-20 16:30:04.362 [main] INFO  com.kdc.dataclean.Application 679 - The following profiles are active: dev
+2019-05-20 16:30:05.115 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer 90 - Tomcat initialized with port(s): 8080 (http)
+2019-05-20 16:30:05.125 [main] INFO  org.apache.coyote.http11.Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8080"]
+2019-05-20 16:30:05.130 [main] INFO  org.apache.catalina.core.StandardService 173 - Starting service [Tomcat]
+2019-05-20 16:30:05.131 [main] INFO  org.apache.catalina.core.StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-05-20 16:30:05.205 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] 173 - Initializing Spring embedded WebApplicationContext
+2019-05-20 16:30:05.206 [main] INFO  org.springframework.web.context.ContextLoader 296 - Root WebApplicationContext: initialization completed in 809 ms
+2019-05-20 16:30:05.402 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor 171 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-20 16:30:05.487 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler 171 - Initializing ExecutorService 'taskScheduler'
+2019-05-20 16:30:05.517 [main] INFO  org.apache.coyote.http11.Http11NioProtocol 173 - Starting ProtocolHandler ["http-nio-8080"]
+2019-05-20 16:30:05.531 [scheduling-1] INFO  com.alibaba.druid.pool.DruidDataSource 655 - {dataSource-1} inited
+2019-05-20 16:30:05.535 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer 204 - Tomcat started on port(s): 8080 (http) with context path ''
+2019-05-20 16:30:05.537 [main] INFO  com.kdc.dataclean.Application 59 - Started Application in 1.526 seconds (JVM running for 1.971)
+2019-05-20 16:30:08.566 [scheduling-1] INFO  com.kdc.dataclean.job.service.WorkService4 160 - 共有数据7301条
+2019-05-20 16:30:09.019 [scheduling-1] INFO  com.kdc.dataclean.job.service.WorkService4 166 - 7301条数据插入目标表成功
+2019-05-20 16:30:09.020 [scheduling-1] INFO  com.kdc.dataclean.job.service.WorkService4 171 - 0条数据更新目标表成功
+2019-05-20 16:30:09.238 [scheduling-1] INFO  com.kdc.dataclean.job.service.WorkService4 175 - 7301条数据插入状态表成功
+2019-05-20 16:30:09.238 [scheduling-1] INFO  com.kdc.dataclean.job.service.WorkService4 176 - 0条数据身份证为空没有处理
+2019-05-20 16:30:09.238 [scheduling-1] INFO  com.kdc.dataclean.job.service.WorkService4 177 - 0条数据check出来了error
+2019-05-20 16:30:09.526 [scheduling-1] INFO  com.kdc.dataclean.job.service.WorkService4 183 - 插入基本人口表7256条
+2019-05-20 17:37:32.267 [main] INFO  com.kdc.dataclean.Application 50 - Starting Application on KEDA-995K4R2 with PID 7528 (E:\idea_workspace\data-clean\target\classes started by Administrator in E:\idea_workspace\data-clean)
+2019-05-20 17:37:32.269 [main] INFO  com.kdc.dataclean.Application 679 - The following profiles are active: dev
+2019-05-20 17:37:33.021 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer 90 - Tomcat initialized with port(s): 8080 (http)
+2019-05-20 17:37:33.030 [main] INFO  org.apache.coyote.http11.Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8080"]
+2019-05-20 17:37:33.036 [main] INFO  org.apache.catalina.core.StandardService 173 - Starting service [Tomcat]
+2019-05-20 17:37:33.036 [main] INFO  org.apache.catalina.core.StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-05-20 17:37:33.110 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] 173 - Initializing Spring embedded WebApplicationContext
+2019-05-20 17:37:33.110 [main] INFO  org.springframework.web.context.ContextLoader 296 - Root WebApplicationContext: initialization completed in 814 ms
+2019-05-20 17:37:33.300 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor 171 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-20 17:37:33.381 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler 171 - Initializing ExecutorService 'taskScheduler'
+2019-05-20 17:37:33.409 [main] INFO  org.apache.coyote.http11.Http11NioProtocol 173 - Starting ProtocolHandler ["http-nio-8080"]
+2019-05-20 17:37:33.422 [scheduling-1] INFO  com.alibaba.druid.pool.DruidDataSource 655 - {dataSource-1} inited
+2019-05-20 17:37:33.426 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer 204 - Tomcat started on port(s): 8080 (http) with context path ''
+2019-05-20 17:37:33.429 [main] INFO  com.kdc.dataclean.Application 59 - Started Application in 1.48 seconds (JVM running for 1.921)
+2019-05-20 17:37:33.568 [scheduling-1] INFO  com.kdc.dataclean.job.service.WorkServiceCoyCndtn 89 - 共有数据297条
+2019-05-20 17:37:33.571 [scheduling-1] INFO  com.alibaba.druid.pool.DruidDataSource 655 - {dataSource-2} inited
+2019-05-20 17:37:33.623 [scheduling-1] INFO  com.kdc.dataclean.job.service.WorkServiceCoyCndtn 95 - 297条数据插入目标表成功
+2019-05-20 17:37:33.636 [scheduling-1] INFO  com.kdc.dataclean.job.service.WorkServiceCoyCndtn 100 - 297条数据插入状态表成功
+2019-05-20 17:37:33.636 [scheduling-1] INFO  com.kdc.dataclean.job.service.WorkServiceCoyCndtn 101 - 0条数据身份证为空没有处理
+2019-05-20 17:37:33.636 [scheduling-1] INFO  com.kdc.dataclean.job.service.WorkServiceCoyCndtn 102 - 0条数据check出来了error

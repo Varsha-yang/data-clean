@@ -36,7 +36,16 @@ public class WorkJob {
     private CommunityPartyMbeWorkService communityPartyMbeWorkService;
 
     @Autowired
+    private CommunityCrrctWorkService communityCrrctWorkService;
+
+    @Autowired
     private NonPblicEcnmyOrgWorkService nonPblicEcnmyOrgWorkService;
+
+    @Autowired
+    private AddRessTunlWorkService addRessTunlWorkService;
+
+    @Autowired
+    private AddRessHseWorkService addRessHseWorkService;
 
     // 采集模块人口基础表映射
     // @Scheduled(fixedDelay = 24*60*60*1000)
@@ -89,9 +98,21 @@ public class WorkJob {
 
     // 街道旧智慧社区矫正信息表映射
     // @Scheduled(fixedDelay = 24*60*60*1000)
-//     private  void  communityPartyMbeExecute(){
-//        communityPartyMbeWorkService.cleanData();
-//    }
+     private  void  communityCrrctExecute(){
+         communityCrrctWorkService.cleanData();
+    }
+
+    // 清洗街路巷信息
+   // @Scheduled(fixedDelay = 24*60*60*1000)
+    private  void  addRessTunlExecute(){
+         addRessTunlWorkService.cleanData();
+    }
+
+    // 清洗房屋地址
+    // @Scheduled(fixedDelay = 24*60*60*1000)
+    private  void  addRessHseExecute(){
+        addRessHseWorkService.cleanData();
+    }
 
 
     // 清洗非公有制经济组织信息表

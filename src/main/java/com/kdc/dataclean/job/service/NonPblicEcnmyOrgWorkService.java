@@ -68,7 +68,6 @@ public class NonPblicEcnmyOrgWorkService {
                         destInsertMap.put("coy_addr", addr);
                         destInsertMap.put("legal_person", lkMan);
                         destInsertMap.put("coy_cntct_num", cntct);
-                        destInsertMap.put("biz_scope", coyScale);
                         destInsertMap.put("created_time", currentTime);
                         destInsertMap.put("created_by", jobId);
                         destInsertMap.put("updated_by", jobId);
